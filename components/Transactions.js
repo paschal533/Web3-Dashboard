@@ -15,7 +15,7 @@ export default function Transactions({ user }) {
       limit: 5
     })
     if(data) {
-      //setTransactions(data.result)
+      setTransactions(data.result)
     }
   }
 
