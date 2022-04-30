@@ -4,7 +4,7 @@ import { useMoralisWeb3Api } from "react-moralis";
 import CustomContainer from "./CustomContainer";
 
 export default function Transactions({ user }) {
-  //const Web3Api = useMoralisWeb3Api()
+  const Web3Api = useMoralisWeb3Api()
   const [transactions, setTransactions] = useState()
   const BaseURL = "https://rinkeby.etherscan.io/tx/"
 
