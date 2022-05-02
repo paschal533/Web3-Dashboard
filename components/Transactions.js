@@ -9,7 +9,7 @@ export default function Transactions({ user }) {
   const BaseURL = "https://rinkeby.etherscan.io/tx/"
 
   const fetchTransactions = async () => {
-    const data = await Web3Api.account.getTransactions({
+    //const data = await Web3Api.account.getTransactions({
       chain: "rinkeby",
       address: user.get('ethAddress'),
       limit: 5
