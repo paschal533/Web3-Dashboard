@@ -6,7 +6,7 @@ import CustomContainer from "./CustomContainer";
 export default function Transactions({ user }) {
   const Web3Api = useMoralisWeb3Api()
   const [transactions, setTransactions] = useState()
-  const BaseURL = "https://rinkeby.etherscan.io/tx/"
+  //const BaseURL = "https://rinkeby.etherscan.io/tx/"
 
   const fetchTransactions = async () => {
     const data = await Web3Api.account.getTransactions({
