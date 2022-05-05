@@ -12,7 +12,7 @@ export default function Transactions({ user }) {
     const data = await Web3Api.account.getTransactions({
       chain: "rinkeby",
       address: user.get('ethAddress'),
-      //limit: 5
+      limit: 5
     })
     if(data) {
       setTransactions(data.result)
