@@ -20,7 +20,7 @@ export default function Transactions({ user }) {
   }
 
   useEffect(() => {
-    fetchTransactions();
+    //fetchTransactions();
   }, [])
 
   return (
