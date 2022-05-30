@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Profile from "../components/Profile";
 import Balance from "../components/Balance";
 import Transactions from "../components/Transactions";
-import NFTs from "../components/Nfts";
+//import NFTs from "../components/Nfts";
 import Send from "../components/Send";
 
 export default function Home() {
