@@ -1,7 +1,7 @@
 import { useMoralis } from "react-moralis";
 import Head from 'next/head';
 import { Box, Button, Flex, TabList, Tabs, Text, Tab, TabPanels, TabPanel } from "@chakra-ui/react";
-import Header from "../components/Header";
+//import Header from "../components/Header";
 import Profile from "../components/Profile";
 import Balance from "../components/Balance";
 import Transactions from "../components/Transactions";
