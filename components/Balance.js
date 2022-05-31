@@ -1,4 +1,4 @@
-//import { Divider, Text } from "@chakra-ui/react";
+import { Divider, Text } from "@chakra-ui/react";
 import Moralis from "moralis";
 import { useEffect, useState } from "react";
 import { useERC20Balances, useMoralisWeb3Api } from "react-moralis"
