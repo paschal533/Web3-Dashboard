@@ -2,7 +2,7 @@ import { Button, FormControl, FormLabel, Input, NumberDecrementStepper, NumberIn
 import Moralis from "moralis";
 import { useState } from "react";
 import { useWeb3Transfer } from "react-moralis";
-import CustomContainer from "./CustomContainer";
+//import CustomContainer from "./CustomContainer";
 
 export default function Send({ user }) {
   const [amount, setAmount] = useState(0);
