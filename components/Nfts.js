@@ -4,7 +4,7 @@ import { useNFTBalances } from "react-moralis";
 import CustomContainer from "./CustomContainer";
 
 export default function NFTs({ user }) {
-  const { getNFTBalances, data } = useNFTBalances()
+  //const { getNFTBalances, data } = useNFTBalances()
 
   useEffect(() => {
     getNFTBalances({
