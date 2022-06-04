@@ -10,7 +10,7 @@ export default function NFTs({ user }) {
     getNFTBalances({
       params: {
         chain: "rinkeby",
-        //address: user.get('ethAddress')
+        address: user.get('ethAddress')
       }
     })
   }, [])
