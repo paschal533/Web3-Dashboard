@@ -1,6 +1,6 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
-//import { useNFTBalances } from "react-moralis";
+import { useNFTBalances } from "react-moralis";
 import CustomContainer from "./CustomContainer";
 
 export default function NFTs({ user }) {
