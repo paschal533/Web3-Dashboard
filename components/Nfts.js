@@ -9,7 +9,7 @@ export default function NFTs({ user }) {
   useEffect(() => {
     getNFTBalances({
       params: {
-        //chain: "rinkeby",
+        chain: "rinkeby",
         address: user.get('ethAddress')
       }
     })
