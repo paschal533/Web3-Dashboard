@@ -5,7 +5,7 @@ import CustomContainer from "./CustomContainer";
 
 export default function Profile({ user }) {
   const [input, setInput] = useState("");
-  //const {setUserData, isUserUpdating} = useMoralis();
+  const {setUserData, isUserUpdating} = useMoralis();
 
   return(
     <CustomContainer>
