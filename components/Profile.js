@@ -12,7 +12,7 @@ export default function Profile({ user }) {
       <Text><b>emoji &nbsp: Username:</b> {user.getUsername()}</Text>
       <Text><b>emoji &nbsp: Wallet Address:</b> {user.get("ethAddress")}</Text>
       <form onSubmit={e => {
-          //e.preventDefault()
+          e.preventDefault()
           if(input.trim() !== ''){
             setUserData({
               username: input,
